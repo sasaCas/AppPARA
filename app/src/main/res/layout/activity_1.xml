@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.mac.apppara.MainActivity">
-
+    tools:context="com.example.mac.apppara.Activity_1">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="20sp"
-            android:text="PÁGINA MAIN"
+            android:text="PÁGINA ACTIVITY_1"
             android:layout_margin="8dp"/>
 
     </LinearLayout>
@@ -59,8 +58,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="16"
-                android:onClick="eresUnPocoTonto"/>
+                android:text="88" />
 
             <TextView
                 style="@style/numerosGordos"
@@ -90,12 +88,13 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="numeroGanador"
-                android:text="número ganador AQUÍ" />
+                android:text="Hello World!" />
 
         </LinearLayout>
 
     </LinearLayout>
+
+
 
 
 </LinearLayout>
