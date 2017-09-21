@@ -8,28 +8,37 @@
     tools:context="com.example.mac.apppara.MainActivity">
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Hello World!"/>
+            android:textSize="20sp"
+            android:text="PÁGINA MAIN"
+            android:layout_margin="8dp"/>
+
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Hello World!"/>
+
+            android:text="Hello SARA!!!"
+            android:textStyle="bold"
+            android:gravity="center"
+
+            android:textSize="25sp"/>
 
     </LinearLayout>
 
@@ -46,19 +55,20 @@
             android:orientation="horizontal">
 
             <TextView
+                style="@style/numerosGordos"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:text="Hello World!"/>
+                android:layout_weight="1"
+                android:text="16" />
 
             <TextView
+                style="@style/numerosGordos"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:text="Hello World!"/>
+                android:layout_weight="1"
+                android:text="Hello World!" />
 
         </LinearLayout>
-
 
 
         <LinearLayout
@@ -68,16 +78,18 @@
             android:orientation="horizontal">
 
             <TextView
+                style="@style/numerosGordos"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:text="Hello World!"/>
+                android:layout_weight="1"
+                android:text="Hello rld!" />
 
             <TextView
+                style="@style/numerosGordos"
                 android:layout_width="0dp"
-                android:layout_weight="1"
                 android:layout_height="match_parent"
-                android:text="Hello World!"/>
+                android:layout_weight="1"
+                android:text="Hello World!" />
 
         </LinearLayout>
 
