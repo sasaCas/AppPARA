@@ -15,9 +15,10 @@
 
         <TextView
             android:layout_width="match_parent"
+
             android:layout_height="match_parent"
             android:textSize="20sp"
-            android:text="PÁGINA ACTIVITY_1"
+            android:text="¡you have passed your level!"
             android:layout_margin="8dp"/>
 
     </LinearLayout>
@@ -33,11 +34,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
 
-            android:text="Hello SARA!!!"
+            android:text="solve this multiplication:8x8"
             android:textStyle="bold"
             android:gravity="center"
 
             android:textSize="25sp"/>
+
 
     </LinearLayout>
 
@@ -58,14 +60,22 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="88" />
+                android:text="88"
+                android:onClick="eres88"
+
+
+                />
 
             <TextView
                 style="@style/numerosGordos"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Hello World!" />
+                android:text="72"
+                android:onClick="eres72"
+
+
+                />
 
         </LinearLayout>
 
@@ -81,14 +91,16 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Hello rld!" />
+                android:text="64" />
 
             <TextView
                 style="@style/numerosGordos"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Hello World!" />
+                android:text="86"
+                android:onClick="eres86"
+                />
 
         </LinearLayout>
 
