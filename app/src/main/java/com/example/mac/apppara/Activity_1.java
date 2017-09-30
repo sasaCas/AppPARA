@@ -1,5 +1,6 @@
 package com.example.mac.apppara;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +13,9 @@ public class Activity_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_1);
     }
+
+
+
 
     public void eres88 (View view) {
         Toast.makeText(this, "¿no se si eres muy listo?", Toast.LENGTH_SHORT).show();
@@ -30,4 +34,13 @@ public class Activity_1 extends AppCompatActivity {
     }
 
 
+
+
+
+
+    public void numeroGanador64(View view) {
+
+        Intent intenteres64 = new Intent(this, Activity_final.class);
+        startActivity(intenteres64);
+    }
 }

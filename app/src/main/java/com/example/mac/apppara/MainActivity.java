@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void numeroGanador(View view) {
+    public void eres56(View view) {
 
         Intent intentQuePasaDeActividadDeGuay = new Intent(this, Activity_1.class);
         startActivity(intentQuePasaDeActividadDeGuay);
@@ -41,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
+    public void eresfeliz (View view) {
+        Toast.makeText(this, "¡o si bien, has terminado el juego!Felicidades ", Toast.LENGTH_SHORT).show();
+    }
 
 
 }

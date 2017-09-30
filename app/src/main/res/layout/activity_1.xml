@@ -15,7 +15,8 @@
 
         <TextView
             android:layout_width="match_parent"
-
+android:background="#FF9E80"
+            android:textColor="#FFFFFF"
             android:layout_height="match_parent"
             android:textSize="20sp"
             android:text="¡you have passed your level!"
@@ -37,7 +38,8 @@
             android:text="solve this multiplication:8x8"
             android:textStyle="bold"
             android:gravity="center"
-
+android:background="#76FF03"
+            android:textColor="#FFFFFF"
             android:textSize="25sp"/>
 
 
@@ -62,7 +64,8 @@
                 android:layout_weight="1"
                 android:text="88"
                 android:onClick="eres88"
-
+                android:background="#FF3D00"
+android:textColor="#FFFFFF"
 
                 />
 
@@ -73,6 +76,9 @@
                 android:layout_weight="1"
                 android:text="72"
                 android:onClick="eres72"
+                android:background="#69F0AE"
+                android:textColor="#FFFFFF"
+
 
 
                 />
@@ -91,15 +97,22 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="64" />
+                android:text="64"
+                android:onClick="numeroGanador64"
+                android:background="#AA00FF"
+  android:textColor="#FFFFFF"
+
+                />
 
             <TextView
                 style="@style/numerosGordos"
+                android:background="#76FF03"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="86"
                 android:onClick="eres86"
+                android:textColor="#FFFFFF"
                 />
 
         </LinearLayout>
