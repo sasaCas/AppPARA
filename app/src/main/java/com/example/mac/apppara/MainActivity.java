@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+
+// APLICACIÓN HECHA POR PAPÁ Y SARA
+
 public class MainActivity extends AppCompatActivity {
 
 
